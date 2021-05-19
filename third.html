@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="inhalt">
+        <form name="terminauswahl" method="post">
+            <label>Wohnort:</label>
+              <select id="ort" onchange="oertchen()">
+                <option disabled selected>W&auml;hlen Sie eine Stadt aus</option>
+                <option>Wien</option>
+                <option>Linz</option>
+                <option>Wels</option>
+                <option>Salzburg</option>
+                <option>Steyr</option>
+                <option>Enns</option>
+              </select>
+            </label>
+          </form>          
+        <br>
+        <button onclick="nextPage()"> Next </button>
+    </div>
+</body>
+</html>

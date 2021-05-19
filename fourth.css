@@ -1,0 +1,8 @@
+.bilder{
+    background-color: black;
+    transition: all 0.5s;
+    border: 3px solid #1e2025;
+}
+.bilder:hover{
+    opacity: 0.5;
+}

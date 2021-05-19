@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #515561;
+}
+
+#inhalt{
+    background-image: linear-gradient(to top, #515561, #b38f78);
+    width: 60vw;
+    height: 35vh;
+    margin: 20vh auto;
+    text-align: center;
+    padding-top: 25vh;
+    -webkit-box-shadow: 15px 15px 34px 1px #30333B; 
+    box-shadow: 15px 15px 34px 1px #30333B;
+}
+
+#inhalt > button{
+    background-color: #b28474;
+    padding: 5px 10px;
+    margin: 10px;
+    border: #362823 solid 2px;
+    transition: background-color 1s;
+}
+
+#inhalt > button:hover{
+    background-color: #815f54;
+}
+
+.second{
+    font-size: 300%;
+}
+
+label{
+    font-size: 50px;
+    position: absolute;
+    left: 29vw;
+    top: 35vh;
+}
+
+#ort{
+    font-size: 250%;
+    top: 38vh;
+    background-color: #d69f8d;
+    border: #362823 solid 2px;
+}
+
+#infos{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    padding: 10px;
+    font-size: 150%;
+}
+
+hr{
+    border: rgba(0, 0, 0, 0.658) solid 0.1px;
+    position: absolute;
+    top: 26vh;
+    left: 20vw;
+    width: 59.85vw;
+}
+
+#button{
+    position: absolute;
+    bottom: 20vh;
+    right: 20vw;
+}
+
+#sachen{
+    height: 18vw;
+    width: 50vw;
+    border: #30333B solid 2.5px;
+    position: absolute;
+    margin-left: 5vw;
+    top: 31vh;
+    overflow-y: auto;
+    background-color: #30333B;
+    padding-top: 15px;
+}
+
+#sachen div{
+    text-align: left;
+}
+
+#sachen div:nth-child(2){
+    text-align: right;
+}
+
+.bilder{
+    width: 24vw;
+    height: 15vw;
+    margin: 0px;
+    padding: 0px;
+}
